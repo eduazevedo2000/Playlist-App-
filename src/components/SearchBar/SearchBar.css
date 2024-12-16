@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 #searchBar {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
   overflow: hidden;
   width: 100vw;
   max-width: 65rem;
@@ -28,6 +33,7 @@
   border-bottom-left-radius: 2rem;
 }
 .searchButton {
+  cursor: pointer;
   width: 5rem;
   height: 3rem;
   background-color: rgb(255, 60, 0);
@@ -37,4 +43,10 @@
   font-weight: 200;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
+}
+.searchButton:hover {
+  background-color: #ff6f47;
+}
+.songsAndPlaylist {
+  display: flex;
 }

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.searchResults {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #f5f5f5;
+  background: #2e2e2e;
+  margin: 5rem 10rem;
+  max-width: 45rem;
+  width: 45rem;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  height: 40rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.resultContent {
+  flex: 1;
+}
+.resultItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #444444;
+  padding-bottom: 1rem;
+}
+.songTitle,
+.noResult {
+  color: #ff5733;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-right: 4rem;
+}
+.songArtist {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.songAlbum {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+}
+.addButton {
+  background-color: #ff5733;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.addButton:hover {
+  background-color: #ff6f47;
+}
